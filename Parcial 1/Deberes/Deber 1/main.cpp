@@ -18,7 +18,7 @@ NRC: 7166*/
 
 int main(int argc, char** argv)
  {
- 	Proceso objeto (1.0, 2.0, 3.0, 4.0);
+ 	Proceso objeto (6.0, 2.0, 9.0, 4.0);
 	objeto.Imprimir(objeto);
 	return 0;
 }
