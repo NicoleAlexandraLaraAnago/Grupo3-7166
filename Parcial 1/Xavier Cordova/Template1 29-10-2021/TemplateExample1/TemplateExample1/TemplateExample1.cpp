@@ -1,5 +1,12 @@
-// TemplateExample1.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
+/*Universidad de las fuerzas armadas ESPE
+Templates example 1
+Autor: Xavier Cordoba
+Fecha de creación: Viernes 29 de Octubre del 2021
+Fecha de modificación: Viernes 29 de Octubre del 2021
+Version: 1.0
+Materia: Estructura de datos
+NRC: 7166*/
+
 
 #include <iostream>
 
