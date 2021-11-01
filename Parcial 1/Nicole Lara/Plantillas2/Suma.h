@@ -3,8 +3,8 @@
 												   PLANTILLAS
 
 				Autores: 				Nicole Lara
-				Fecha de Creaci�n:		30/10/2021
-				Fecha de modificacion:	30/010/2021
+				Fecha de Creacion:		30/10/2021
+				Fecha de modificacion:	01/010/2021
 				Docente: 				Ing. Edgar Fernando Solis Acosta
 				Carrera: 				Ingenieria de Software
 				Asignatura:             Estructura de Datos
@@ -53,7 +53,7 @@ S Suma<S>::getSumando2() {
 }
 
 template <typename S>
-S Suma<S>::Suma(S n1, S n2) {
+Suma<S>::Suma(S n1, S n2) {
 	this->sumando1 = n1;
 	this->sumando2 = n2;
 	
@@ -61,4 +61,8 @@ S Suma<S>::Suma(S n1, S n2) {
 template <typename S>
 Suma<S>::~Suma() {
 
+}
+template <typename S>
+S Suma<S>::operacion() {
+	return ((this->sumando1 + this->sumando2));
 }
