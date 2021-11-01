@@ -1,8 +1,23 @@
 [Editors]
-Order=0
-Focused=0
+Order=0,1,2
+Focused=1
 [Editor_0]
+<<<<<<< HEAD:Parcial 1/DEBER 1/Deber 1.layout
+CursorCol=2
+CursorRow=24
+=======
 CursorCol=24
 CursorRow=26
+>>>>>>> 515603ec2a0099e6434ae858011792cbe85ca8ad:Parcial 1/Nicole Lara/Ejemplo clase/plantillas.layout
 TopLine=1
+LeftChar=1
+[Editor_1]
+CursorCol=16
+CursorRow=162
+TopLine=129
+LeftChar=1
+[Editor_2]
+CursorCol=1
+CursorRow=1
+TopLine=11
 LeftChar=1
