@@ -25,6 +25,7 @@ public:
 	Suma(S n1, S n2);
 	~Suma();
 	S operacion();
+	
 private:
 	S sumando1;
 	S sumando2;
