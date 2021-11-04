@@ -2,36 +2,22 @@
 
 using namespace std;
 
-//Multiplicacion
+
+//Resta
 template <class TipoDato>
-class Multiplicacion{
-	TipoDato n5,n6;
+class Resta{
+	TipoDato n3,n4;
 public:
-	Multiplicacion(TipoDato _n5, TipoDato _n6){
-		n5 = _n5;
-		n6 = _n6;
+	Resta(TipoDato _n3, TipoDato _n4){
+		n3 = _n3;
+		n4 = _n4;
 	};
-	TipoDato Multiplicar();
+	TipoDato Restar();
 };
 
 template <class TipoDato>
-TipoDato Multiplicacion<TipoDato>::Multiplicar(){
-	return n5*n6;
+TipoDato Resta<TipoDato>::Restar(){
+	return n3-n4;
 }
 
-//Division
-template <class TipoDato>
-class Division{
-	TipoDato n7,n8;
-public:
-	Division(TipoDato _n7, TipoDato _n8){
-		n7 = _n7;
-		n8 = _n8;
-	};
-	TipoDato Dividir();
-};
 
-template <class TipoDato>
-TipoDato Division<TipoDato>::Dividir(){
-	return n7/n8;
-}

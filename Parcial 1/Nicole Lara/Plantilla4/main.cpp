@@ -1,20 +1,34 @@
+/*
+										UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+												   PLANTILLAS
+
+				Autores: 				Nicole Lara
+				Fecha de Creacion:		30/10/2021
+				Fecha de modificacion:	01/010/2021
+				Docente: 				Ing. Edgar Fernando Solis Acosta
+				Carrera: 				Ingenieria de Software
+				Asignatura:             Estructura de Datos
+*/
 #include <iostream>
-#include <stdlib.h>
-#include "Factorial.h"
+#include"Suma.h"
 using namespace std;
+
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char** argv) {
-	int numero1, factorial = 1;
-	cout << "\t\t\tCALCULAR FACTORIAL" << "\n";
-	cout << "Ingrese el numero factorial  : ";
-	cin >> numero1;
 
+	float sumando1, sumando2;
+	cout << "\t\t\tCALCULAR SUMA" << "\n";
+	cout << "Ingrese sumando 1 : ";
+	cin >> sumando1;
+	cout << "Ingrese sumando 2 : ";
+	cin >> sumando2;
 
 	cout << "";
 
-	Factorial<int> resuelve(numero1);
+	Suma<float> datos(sumando1, sumando2);
 
-	cout << "\n RESULTADO: " << numero1 << "i" <<" = " << resuelve.operacion() << endl;
+	cout << "\n RESULTADO: " << sumando1 << "+" <<sumando2 <<" = " << datos.operacion() << endl;
+
 	return 0;
 }

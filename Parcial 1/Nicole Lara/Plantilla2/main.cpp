@@ -2,33 +2,26 @@
 										UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
 												   PLANTILLAS
 
-				Autores: 				Nicole Lara
-				Fecha de Creacion:		30/10/2021
-				Fecha de modificacion:	01/010/2021
+				Autores: 				 Nicole Lara
+				Fecha de Creación:		29/10/2021
+				Fecha de modificacion:	29/10/2021
 				Docente: 				Ing. Edgar Fernando Solis Acosta
 				Carrera: 				Ingenieria de Software
 				Asignatura:             Estructura de Datos
 */
+
 #include <iostream>
-#include"Suma.h"
+#include "Operaciones.h"
+
 using namespace std;
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+main(){
 
-int main(int argc, char** argv) {
 
-	float sumando1, sumando2;
-	cout << "\t\t\tCALCULAR SUMA" << "\n";
-	cout << "Ingrese sumando 1 : ";
-	cin >> sumando1;
-	cout << "Ingrese sumando 2 : ";
-	cin >> sumando2;
-
-	cout << "";
-
-	Suma<float> datos(sumando1, sumando2);
-
-	cout << "\n RESULTADO: " << sumando1 << "+" <<sumando2 <<" = " << datos.operacion() << endl;
-
-	return 0;
+	
+	Multiplicacion<int> multi(5,8);
+	cout<<"El resultado de 5*8 es: "<<multi.Multiplicar()<<endl;
+	
+	Division<float> divi(15,2);
+	cout<<"El resultado de 15/2 es: "<<divi.Dividir()<<endl;
 }
