@@ -1,3 +1,15 @@
+/*Universidad de las fuerzas armadas ESPE
+OPERACIONES
+Autores:
+Xavier Cordoba
+Camila Naspud
+Juan Gallardo
+Nicole Lara
+Fecha de creación: Miercoles 03 de Noviembre del 2021
+Fecha de modificación: Jueves 04 de Noviembre del 2021
+Materia: Estructura de datos
+NRC: 7166*/
+
 #include "pch.h"
 #include "CppUnitTest.h"
 #include "../Complejo/Complejo.h"
