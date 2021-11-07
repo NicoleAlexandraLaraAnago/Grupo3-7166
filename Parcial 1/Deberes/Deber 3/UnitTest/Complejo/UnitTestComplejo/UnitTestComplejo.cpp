@@ -1,7 +1,7 @@
 /*Universidad de las fuerzas armadas ESPE
 OPERACIONES
 Autores:
-Xavier Cordoba
+Xavier Cordova
 Camila Naspud
 Juan Gallardo
 Nicole Lara
