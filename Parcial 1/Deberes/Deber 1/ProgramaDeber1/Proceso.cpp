@@ -148,18 +148,6 @@ Proceso::~Proceso()
    // TODO : implement
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Proceso::Imprimir(Proceso objeto)
-// Purpose:    Implementation of Proceso::Imprimir()
-// Parameters:
-// - objeto
-// Return:     void
-////////////////////////////////////////////////////////////////////////
 
-void Proceso::Imprimir(Proceso objeto)
-{
-   // TODO : implement
-   printf("%f",((objeto.numerador1 * objeto.denominador2) + (objeto.numerador2*objeto.denominador1))/(objeto.denominador1+objeto.denominador2));
-   
-}
+
 

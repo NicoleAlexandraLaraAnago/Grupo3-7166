@@ -16,6 +16,8 @@ Fecha de modificación: Jueves 28 de Octubre del 2021
 Materia: Estructura de datos
 NRC: 7166*/
 
+#include<iostream>
+using namespace std;
 #if !defined(__Operaciones2_Proceso_h)
 #define __Operaciones2_Proceso_h
 
