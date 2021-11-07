@@ -34,7 +34,7 @@ public:
    void setDenominador2(float newDenominador2);
    Proceso(float num1, float den1, float num2, float den2);
    ~Proceso();
-   void Imprimir(Proceso objeto);
+   void Imprimir();
 
 protected:
 private:

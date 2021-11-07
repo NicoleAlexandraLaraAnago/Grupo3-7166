@@ -18,7 +18,6 @@ NRC: 7166*/
 
 
 #include "Proceso.h"
-#include <stdio.h>
 
 ////////////////////////////////////////////////////////////////////////
 // Name:       Proceso::getNumerador1()
