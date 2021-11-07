@@ -4,13 +4,14 @@
 
 				Autores: 				Nicole Lara
 				Fecha de Creacion:		02/10/2021
-				Fecha de modificacion:	02/010/2021
+				Fecha de modificacion:	04/10/2021
 				Docente: 				Ing. Edgar Fernando Solis Acosta
 				Carrera: 				Ingenieria de Software
 				Asignatura:             Estructura de Datos
 */
 #include <iostream>
-
+#ifndef RECTANGULO_H
+#define RECTANGULO_H
 using namespace std;
 
 template <typename A>
@@ -63,11 +64,5 @@ template <typename A>
 Rectangulo<A>::~Rectangulo() {
 
 }
-template <typename A>
-A Rectangulo<A>::perimetro(){
-	return((this->largo*2)+(this->ancho*2));
-}
-template <typename A>
-A Rectangulo<A>::area(){
-	return((this->largo)*(this->ancho));
-}
+#endif
+

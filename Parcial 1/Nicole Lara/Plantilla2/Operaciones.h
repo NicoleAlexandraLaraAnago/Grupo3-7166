@@ -1,37 +1,65 @@
-#include<iostream>
+/*
+										UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+												   PLANTILLAS
 
+				Autores: 				 Nicole Lara
+				Fecha de Creaci�n:		29/10/2021
+				Fecha de modificacion:	06/10/2021
+				Docente: 				Ing. Edgar Fernando Solis Acosta
+				Carrera: 				Ingenieria de Software
+				Asignatura:             Estructura de Datos
+*/
+#include<iostream>
+#pragma once
 using namespace std;
 
-//Multiplicacion
 template <class TipoDato>
-class Multiplicacion{
-	TipoDato n5,n6;
+
+class Operaciones{
+
 public:
-	Multiplicacion(TipoDato _n5, TipoDato _n6){
-		n5 = _n5;
-		n6 = _n6;
-	};
-	TipoDato Multiplicar();
+	
+		void setNum5(TipoDato n5);
+		TipoDato getNum5();
+		void setNum6(TipoDato n6);
+		TipoDato getNum6();
+		Operaciones(TipoDato n5,TipoDato n6);
+    	~Operaciones();
+		TipoDato Multiplicar();
+		TipoDato Dividir();
+private:
+		TipoDato num5;
+		TipoDato num6;
+	
 };
 
+
 template <class TipoDato>
-TipoDato Multiplicacion<TipoDato>::Multiplicar(){
-	return n5*n6;
+void Operaciones <TipoDato>::setNum5(TipoDato n5) {
+	this->num5 = n5;
 }
 
-//Division
 template <class TipoDato>
-class Division{
-	TipoDato n7,n8;
-public:
-	Division(TipoDato _n7, TipoDato _n8){
-		n7 = _n7;
-		n8 = _n8;
-	};
-	TipoDato Dividir();
-};
+TipoDato Operaciones<TipoDato>::getNum5() {
+	return this->num5;
+}
+template <class TipoDato>
+void Operaciones <TipoDato>::setNum6(TipoDato n6) {
+	this->num6 = n6;
+}
 
 template <class TipoDato>
-TipoDato Division<TipoDato>::Dividir(){
-	return n7/n8;
+TipoDato Operaciones <TipoDato>::getNum6() {
+	return this->num6;
+}
+template<class TipoDato>
+Operaciones<TipoDato>::Operaciones(TipoDato n5, TipoDato n6){
+	this->num5=n5;
+	this->num6=n6;
+}
+
+
+template <typename TipoDato>
+Operaciones<TipoDato>::~Operaciones() {
+
 }

@@ -10,6 +10,7 @@
 				Asignatura:             Estructura de Datos
 */
 #include <iostream>
+#include"Desarrollo.cpp"
 #include"Suma.h"
 using namespace std;
 

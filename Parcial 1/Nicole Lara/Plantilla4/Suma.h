@@ -10,7 +10,7 @@
 				Asignatura:             Estructura de Datos
 */
 #include <iostream>
-
+#pragma once
 using namespace std;
 
 template <typename S>
@@ -62,7 +62,4 @@ template <typename S>
 Suma<S>::~Suma() {
 
 }
-template <typename S>
-S Suma<S>::operacion() {
-	return ((this->sumando1 + this->sumando2));
-}
+

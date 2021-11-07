@@ -11,10 +11,21 @@
 */
 #include <iostream>
 #include"Numero.h"
+#include"Desarrollo.cpp"
+using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char** argv) {
-	Numero<int> dosnum(20,50);
-	cout<<"la respuesta al numero mayor entre 20 y 50 es: "<<dosnum.Mayor()<<endl;
+	float n1, n2;
+	cout << "\t\tCALCULAR EL NUMERO MAYOR" << "\n";
+	cout << "Ingrese el primer numero : ";
+	cin >> n1;
+	cout << "Ingrese el segundo numero : ";
+	cin >> n2;
+	
+	Numero<float>dosnum(n1, n2);
+	
+	cout <<" "<<endl;
+	cout<<"Numero mayor entre "<<n1<<" y "<<n2<< " es = "<<dosnum.Mayor()<<endl;
 	return 0;
 }
