@@ -1,3 +1,14 @@
+/*Universidad de las fuerzas armadas ESPE
+Sobrecarga de Operadores 
+Autores:  Juan Gallardo
+Fecha de creación: domingo 07 de noviembre del 2021
+Fecha de modificación: domingo 07 de noviembre del 2021
+Materia: Estructura de datos
+NRC: 7166*/
+#include <iostream>
+using namespace std;
+class Cuadernos{
+
 #include <iostream>
 
 using namespace std;
