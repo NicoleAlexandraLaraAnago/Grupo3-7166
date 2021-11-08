@@ -5,8 +5,8 @@ Xavier Cordova
 Camila Naspud
 Juan Gallardo
 Nicole Lara
-Fecha de creación: Domingo 07 de Noviembre del 2021
-Fecha de modificación: Domingo 07 de Noviembre del 2021
+Fecha de creacion: Domingo 07 de Noviembre del 2021
+Fecha de modificacion: Domingo 07 de Noviembre del 2021
 Materia: Estructura de datos
 NRC: 7166*/
 
