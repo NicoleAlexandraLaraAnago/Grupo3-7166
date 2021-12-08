@@ -1,0 +1,4 @@
+﻿  UnitTest.cpp
+C:\Users\Usuario\Desktop\ESPE\Tercer Semestre\Estructura de datos\Codigos\ProyectoParcial1\ProyectoParcial1\Fecha.cpp(45,6): warning C4101: 'i': variable local sin referencia
+     Creando biblioteca C:\Users\Usuario\Desktop\ESPE\Tercer Semestre\Estructura de datos\Codigos\ProyectoParcial1\Debug\UnitTest.lib y objeto C:\Users\Usuario\Desktop\ESPE\Tercer Semestre\Estructura de datos\Codigos\ProyectoParcial1\Debug\UnitTest.exp
+  UnitTest.vcxproj -> C:\Users\Usuario\Desktop\ESPE\Tercer Semestre\Estructura de datos\Codigos\ProyectoParcial1\Debug\UnitTest.dll
