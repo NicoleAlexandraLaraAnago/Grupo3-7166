@@ -5,8 +5,20 @@
 
 using namespace std;
 
+class FuncionesLambda
+{
+
+public:
+	template<class... Args>
+	auto MCD(Args... args);
+
+	template <class... Args>
+	auto MCM(Args... args);
+
+};
+
 template<class... Args>
-auto MCD(Args... args) {
+auto FuncionesLambda::MCD(Args... args) {
 
 	auto mcd = [args...]{
 		int mcd = 0, res;
@@ -41,7 +53,7 @@ auto MCD(Args... args) {
 
 
 template<class... Args>
-auto MCM(Args... args) {
+auto FuncionesLambda::MCM(Args... args) {
 
 	auto mcm = [args...]{
 		int mcm = 0, res, producto;
@@ -68,22 +80,6 @@ auto MCM(Args... args) {
 	return mcm;
 	};
 	return mcm();
-
-}
-
-
-int main()
-{
-	int a = 6;
-	int b = 24;
-	int c = 80;
-	int d = 4;
-	int e = 8;
-	int f = 32;
-
-
-	cout << "El MCD es: " << MCD(a, b, c, d, e, f) << endl;
-	cout << "El MCM es: " << MCM(a, b, c, d, e, f) << endl;
 
 }
 
