@@ -1,5 +1,6 @@
 #include <iostream>
 #include "FuncionesLambda.h"
+#include <conio.h>
 
 using namespace std;
 
@@ -17,5 +18,7 @@ int main()
 
 	cout << "El MCD es: " << lambda.MCD(a, b, c, d, e, f, 216) << endl;
 	cout << "El MCM es: " << lambda.MCM(a, b, c, d, e, f, 216) << endl;
+
+	_getch();
 
 }
